@@ -1,0 +1,18 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "this": "Vue",
+      "that": "React",
+      "thisVote": 2,
+      "thatVote":2
+    },
+    {
+      "id": 2,
+      "this": "Vue",
+      "that": "React",
+      "thisVote": 2,
+      "thatVote":2
+    }
+  ]
+}
