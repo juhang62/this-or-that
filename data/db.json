@@ -4,15 +4,15 @@
       "id": 1,
       "this": "Vue",
       "that": "React",
-      "thisVote": 2,
-      "thatVote":2
+      "thisVote": 110,
+      "thatVote": 6
     },
     {
       "id": 2,
-      "this": "Vue",
-      "that": "React",
-      "thisVote": 2,
-      "thatVote":2
+      "this": "Dog",
+      "that": "Cat",
+      "thisVote": 7,
+      "thatVote": 8
     }
   ]
 }

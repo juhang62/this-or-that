@@ -1,7 +1,6 @@
 <template>
-<p>testlist</p>
-<div>
-<SingleMatch />
+<div v-for="match in matches" :key="match.id">
+  <SingleMatch :match="match"/>
 </div>
 </template>
 
@@ -10,9 +9,9 @@ import SingleMatch from './SingleMatch.vue'
 
 export default {
 
-  
+  props: ['matches'],
   components: { SingleMatch },
-  setup() {
+  setup(props) {
 
   }
 }

@@ -2,7 +2,7 @@ import { ref } from 'vue'
 
 const getMatches = () => {
 
-  const posts = ref([])
+  const matches = ref([])
   const error = ref(null)
 
   const load = async () => {
@@ -11,14 +11,14 @@ const getMatches = () => {
       if(!data.ok) {
         throw Error('no available data')
       }
-      posts.value = await data.json()
+      matches.value = await data.json()
     }
     catch(err) {
       error.value = err.message
     }
   }
 
-  return { posts, error, load }
+  return { matches, error, load }
 }
 
 export default getMatches
